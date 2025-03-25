@@ -31,7 +31,7 @@ const ProductList = () => {
     <div style={{ padding: "20px" }}>
      <div style={{ padding: "20px" }}>
     <div style={{ display: "flex", justifyContent: "space-around", alignItems: "center", marginBottom: 20 }}>
-      <Title level={2}> Products</Title>
+      <Title level={2} style={{textDecoration:"underline", textShadow:"revert"}}> Products 🛒 </Title>
 
       <Badge count={cart.length} showZero style={{ backgroundColor: "#52c41a" }}>
         <Button type="default" icon={<ShoppingCartOutlined />} size="large" onClick={() => setCartVisible(true)}>
